@@ -110,6 +110,10 @@ app.get("/", (req, res) => {
           <code>GET /uploads/:filename</code><br>
           Access uploaded files
         </p>
+         <p>
+          <code>DELETE/uploads/:filename</code><br>
+          Delete uploaded files
+        </p>
       </div>
 
       <div class="card">
