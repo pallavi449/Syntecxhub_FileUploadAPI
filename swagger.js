@@ -14,7 +14,9 @@ const options = {
       },
     ],
   },
-  apis: ["./server.js"],
+
+  // Scan routes folder
+  apis: ["./routes/uploadRoutes.js"],
 };
 
 const swaggerSpec = swaggerJsDoc(options);
